@@ -11,6 +11,7 @@ use Illuminate\Contracts\Database\Query\Expression as ExpressionContract;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Database\ConnectionInterface;
+use Illuminate\Database\PostgresConnection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Traits\Macroable;
 use InvalidArgumentException;
